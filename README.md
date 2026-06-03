@@ -19,7 +19,7 @@ npm run preview
 Principais funcionalidades
 
 - Grid de projetos interativo com pré-visualização em modal
-- Animações com `GSAP` e `Framer Motion`
+- Animaç'ões com `GSAP` e `Framer Motion`
 - Pequeno shader de fundo em `PreviewModal` usando `three.js`
 - Cena 3D no hero usando `@react-three/fiber`
 - Preloader e cursor customizado
@@ -50,3 +50,5 @@ Licença
 
 - Código: livre para uso.
 - Imagens: verifique licenças antes de publicar.
+
+# Portifolio-Etapa-Final
