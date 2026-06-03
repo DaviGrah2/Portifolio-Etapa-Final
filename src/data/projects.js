@@ -82,6 +82,27 @@ const projects = [
     "deploy": "https://deploy.example.com/meu-software-2",
     "_oldThumbnail": "https://github.com/DaviGrah2/App-de-musica/blob/main/Index/Logo%20da%20Wavefy%20oficial.png?raw=true",
     "placeholder": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsTAAALEwEAmpwYAAABm0lEQVR4nGNgGFLgPxSuYvjPEBr6n4Gh/j9DPQgzQDBIBUThfwTGB8DGGf1n/KHwn+Wg+3/WlsL/bMJn/zPx7//PGEqOgdfk/jPdU/oveFT2r0a/31+TlOy/2mrTf0mHuf4UzpH4IRgr/4PHzPUrp2DjD16W2b94GFb85mBY948Jp4E7pX5yrZL8rTVR6kd4nOfPIru0HzEKdT+dfUy/mYRIfLHxlPtsYWj21Uwi/pspe+MPY4bpP+QZZvzgxend7VI/ueaI/9CtlviU5Ov8pdUo6nOWXPF3L1/9r8bB4l9sPeQ+WxqafjWXiPtmzl7/w5xh0g9lhok/BHEauE7iB0e10FfZYNE3dro278Okgt67SqZ8M3LR/KzkKf5J11H2k66B0Vc9qeBvWuzl37UZur9LM/R958MZJaCY1GC7yyIrdI1fVPWBhJD2QxFuxw9cSoJ3GaV4nzDJ8H1gEhf/z8jr/I+JIfMHCxgXfWPGGYb/oYbaM+xnYDA6zcBgv5+BAZR8GLDgeij+TyCmIRpWIQwEacKpDikpDRkAAKzWuwrZ+JmsAAAAAElFTkSuQmCC"
+  },
+  {
+    "slug": "cantina-bella-massa",
+    "title": "Cantina Bella Massa",
+    "short": "Aplicação de exemploo de um sistema de pedidos para uma cantina.",
+    "thumbnail": "/assets/webp/Logo%20da%20Wavefy%20oficial.webp",
+    "tech": [
+      "JavaScript",
+      "Html5 canvas"
+    ],
+    "description": "Aplicação de um sistema de pedidos para uma cantina, desenvolvida com foco em lógica de programação, detecção de colisão e movimentação dinâmica de elementos. O projeto demonstra aplicação prática de conceitos fundamentais de desenvolvimento de jogos e organização de lógica interativa.",
+    "features": [
+      "Gerenciamento de pedidos",
+      "Integração com API"
+    ],
+    "challenges": "Aderir aos requisitos de design, implementar funcionalidades complexas e garantir uma experiência de usuário fluida.",
+    "learnings": "Aprendi poucas coisas já que ó projeto esta em desenvolvimento e é apenas um protótipo mas logo deve se tornar funcional.",
+    "repo": "https://github.com/DaviGrah2/cantina-bella-massa.git",
+    "deploy": "https://deploy.example.com/meu-software-2",
+    "_oldThumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSZZjJdd1Y0TMIgUUKDQhA86Fx7WK3_-Sqtg&s",
+    "placeholder": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSZZjJdd1Y0TMIgUUKDQhA86Fx7WK3_-Sqtg&s"
   }
 ]
 
