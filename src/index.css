@@ -1,0 +1,175 @@
+/* External Citadel font import removed because the CDN returns 500 errors in some environments.
+   The site now falls back to Georgia / serif instead of blocking with a failed resource load. */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    min-height: 100%;
+    background: radial-gradient(circle at top, rgba(102, 153, 204, 0.18), transparent 30%),
+      radial-gradient(circle at bottom left, rgba(255, 250, 250, 0.08), transparent 40%),
+      #14213D;
+    color: #FFFAFA;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Citadel', Georgia, serif;
+    color: #FFFAFA;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  ::selection {
+    background: rgba(102, 153, 204, 0.35);
+    color: #14213D;
+  }
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+/* Custom container width */
+.container {
+  max-width: 1100px;
+}
+
+.hero-scene {
+  width: 100%;
+  height: 100%;
+  min-height: 560px;
+}
+
+.hero-scene canvas {
+  width: 100%;
+  height: 100%;
+}
+
+/* Custom cursor */
+.cursor-dot { width: 8px; height: 8px; background: #6699CC; border-radius: 9999px; }
+.cursor-ring { width: 36px; height: 36px; border-radius: 9999px; border: 1px solid rgba(102,153,204,0.4); }
+
+/* Hero overlay HUD placeholder */
+.hero-overlay { pointer-events: none; }
+.hero-hud { width: 100%; height: 100%; }
+
+/* Modal tweaks */
+.fixed { position: fixed; }
+
+/* Preloader styles */
+.animate-spin { animation: spin 1s linear infinite; }
+@keyframes spin { from { transform: rotate(0deg);} to { transform: rotate(360deg);} }
+
+/* Make default cursor invisible so custom cursor shows */
+body { cursor: none; }
+
+.type-cursor {
+  display: inline-block;
+  margin-left: 0.25rem;
+  width: 1ch;
+  animation: blink 1s steps(2, end) infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.tilt-card {
+  transform-style: preserve-3d;
+  transition: transform 0.35s ease;
+}
+
+.tilt-card:hover {
+  transform: perspective(1200px) rotateX(6deg) rotateY(-9deg) scale(1.01);
+}
+
+.skill-card {
+  transform-style: preserve-3d;
+}
+
+.floating-icons {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.floating-dot,
+.floating-ring {
+  position: absolute;
+  border-radius: 9999px;
+  opacity: 0.7;
+  animation: float 7s ease-in-out infinite;
+}
+
+.floating-dot.dot-1 {
+  width: 12px;
+  height: 12px;
+  top: 1.5rem;
+  left: 1.7rem;
+  background: rgba(255, 250, 250, 0.85);
+  animation-duration: 5.8s;
+}
+
+.floating-dot.dot-2 {
+  width: 14px;
+  height: 14px;
+  top: 6.5rem;
+  right: 2rem;
+  background: rgba(102, 153, 204, 0.72);
+  animation-duration: 6.4s;
+}
+
+.floating-dot.dot-3 {
+  width: 10px;
+  height: 10px;
+  bottom: 3.5rem;
+  left: 2.8rem;
+  background: rgba(255, 250, 250, 0.65);
+  animation-duration: 6.9s;
+}
+
+.floating-ring.ring-1 {
+  width: 72px;
+  height: 72px;
+  top: 2rem;
+  right: 3.5rem;
+  border: 1px solid rgba(255, 250, 250, 0.22);
+  animation-duration: 8.4s;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-12px) translateX(6px);
+  }
+}
+
+/* Blur-up lazy image pattern */
+.blur-up{filter: blur(8px) scale(1.02); transition: filter 420ms ease, opacity 420ms ease; opacity: 0.92}
+.blur-up.is-loaded{filter: none; opacity: 1}
+
