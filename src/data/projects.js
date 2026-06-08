@@ -124,6 +124,28 @@ const projects = [
     "deploy": "https://cafeteria-final.vercel.app/",
     "_oldThumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSZZjJdd1Y0TMIgUUKDQhA86Fx7WK3_-Sqtg&s",
     "placeholder": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSZZjJdd1Y0TMIgUUKDQhA86Fx7WK3_-Sqtg&s"
+  },
+  {
+    "slug": "GamerNetWork",
+    "title": "GamerNetWork",
+    "short": "Aplicação sobre jogos.",
+    "thumbnail": "/assets/webp/Logo%20da%20Wavefy%20oficial.webp",
+    "tech": [
+      "JavaScript",
+      "Html5 canvas",
+      "React"
+    ],
+    "description": "Sistema de procura de jogos, onde o usuário pode pesquisar por jogos e obter informações sobre eles.",
+    "features": [
+      "Direcionamento para páginas de jogos.",
+      "Criação de interface moderna."
+    ],
+    "challenges": "Aderir aos requisitos de design, implementar funcionalidades complexas e garantir uma experiência de usuário fluida.",
+    "learnings": "Aprendi poucas coisas já que ó projeto esta em desenvolvimento e é apenas um protótipo mas logo deve se tornar funcional.",
+    "repo": "https://github.com/DaviGrah2/GamerNetWork-Final.git",
+    "deploy": "https://gamer-net-work.vercel.app/",
+    "_oldThumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSZZjJdd1Y0TMIgUUKDQhA86Fx7WK3_-Sqtg&s",
+    "placeholder": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSZZjJdd1Y0TMIgUUKDQhA86Fx7WK3_-Sqtg&s"
   }
 ]
 
