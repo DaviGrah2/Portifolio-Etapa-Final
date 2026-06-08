@@ -18,7 +18,7 @@ const projects = [
     "challenges": "Criar desings e apis eficientes, lidar com erros e otimizar performance.",
     "learnings": "Aprendi a criar uma API RESTful usando Node.js, organizar rotas de forma eficiente e manipular dados com MongoDB. Também ganhei experiência em autenticação e segurança básica.",
     "repo": "https://github.com/DaviGrah2/Akame-ga-kill-API.git",
-    "deploy": "https://deploy.example.com/meu-software-1"
+    "deploy": "https://akame-ga-kill-api.vercel.app/"
   },
   {
     "slug": "Consumo-de-API",
@@ -100,7 +100,7 @@ const projects = [
     "challenges": "Aderir aos requisitos de design, implementar funcionalidades complexas e garantir uma experiência de usuário fluida.",
     "learnings": "Aprendi poucas coisas já que ó projeto esta em desenvolvimento e é apenas um protótipo mas logo deve se tornar funcional.",
     "repo": "https://github.com/DaviGrah2/cantina-bella-massa.git",
-    "deploy": "https://deploy.example.com/meu-software-2",
+    "deploy": "https://cantina-bella-massa.vercel.app/",
     "_oldThumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSZZjJdd1Y0TMIgUUKDQhA86Fx7WK3_-Sqtg&s",
     "placeholder": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSZZjJdd1Y0TMIgUUKDQhA86Fx7WK3_-Sqtg&s"
   }
