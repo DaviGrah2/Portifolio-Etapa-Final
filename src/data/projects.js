@@ -103,6 +103,27 @@ const projects = [
     "deploy": "https://cantina-bella-massa.vercel.app/",
     "_oldThumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSZZjJdd1Y0TMIgUUKDQhA86Fx7WK3_-Sqtg&s",
     "placeholder": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSZZjJdd1Y0TMIgUUKDQhA86Fx7WK3_-Sqtg&s"
+  },
+  {
+    "slug": "Cafeteria",
+    "title": "Cafeteria",
+    "short": "Aplicação de cafeteria.",
+    "thumbnail": "/assets/webp/Logo%20da%20Wavefy%20oficial.webp",
+    "tech": [
+      "JavaScript",
+      "Html5 canvas"
+    ],
+    "description": "Sistema de pedidos para uma cafeteria ficticia.",
+    "features": [
+      "Gerenciamento de pedidos",
+      "Integração com API"
+    ],
+    "challenges": "Aderir aos requisitos de design, implementar funcionalidades complexas e garantir uma experiência de usuário fluida.",
+    "learnings": "Aprendi poucas coisas já que ó projeto esta em desenvolvimento e é apenas um protótipo mas logo deve se tornar funcional.",
+    "repo": "https://github.com/DaviGrah2/Cafeteria-Final.git",
+    "deploy": "https://cafeteria-final.vercel.app/",
+    "_oldThumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSZZjJdd1Y0TMIgUUKDQhA86Fx7WK3_-Sqtg&s",
+    "placeholder": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSZZjJdd1Y0TMIgUUKDQhA86Fx7WK3_-Sqtg&s"
   }
 ]
 
